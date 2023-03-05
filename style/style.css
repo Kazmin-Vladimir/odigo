@@ -1,0 +1,141 @@
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 56px;
+}
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__item {
+  margin-right: 80px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.header__link {
+  font-size: 18px;
+  color: #ffffff;
+}
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 0.75;
+}
+.intro {
+  min-height: 100vh;
+  background: url(../images/Hero.jpg) no-repeat left 6px;
+  background-size: cover;
+  margin: 0;
+  padding-top: 263px;
+}
+.intro__tytle {
+  max-width: 619px;
+  font-size: 50px;
+  line-height: 60px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.intro__subtitle {
+  max-width: 546px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 125%;
+  margin-bottom: 59px;
+}
+.searcher__form {
+  width: 297px;
+  background: transparent;
+  background: url(../images/Oval.svg) no-repeat left top;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.searcher__form::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.searcher__btn {
+  padding: 15px 39px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+  background: #1b7dff;
+  border: 0;
+}
+.searcher__btn:hover,
+.searcher__btn:hover:focus,
+.searcher__btn:hover:active {
+  background: #1d4c8b;
+}
+.Benefits__wrap {
+  max-width: 1262px;
+  height: 655px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px black;
+  position: relative;
+}
+
+.benefits_title {
+  width: 1062px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  padding: 100px 100px 88px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  background-color: #ffffff;
+}
+.benefis__cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 261px;
+  padding-left: 100px;
+}
+.benefis__card {
+  max-width: 317px;
+  height: 287px;
+
+  left: 189px;
+  margin-bottom: 106px;
+  border-radius: 0px;
+}
+.card__text {
+  padding-right: 20px;
+  width: 280px;
+}
+.card__more {
+  display: inline-block;
+  margin-top: 80px;
+}
